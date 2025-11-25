@@ -7,7 +7,7 @@ data_url_hr = 'https://drive.google.com/file/d/1EYZzQg-PNXWN1vpD0BLSbfG6jyP0nTVr
 targ_url_lr = 'https://drive.google.com/file/d/1l8zYsfQ9vXj5AxGeQFy1eHrbrHRgVKkY/view?usp=sharing'
 data_url_lr = 'https://drive.google.com/file/d/14BZ9PBw7zUaoS2Uy4WXIaKwDRN0A3Dn3/view?usp=sharing'
 
-vae_num_epochs = 20
+vae_num_epochs = 1
 vae_batch_size= 8
 vae_lr=1e-4
 
