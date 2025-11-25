@@ -34,7 +34,7 @@ config = {
     "training": {
         "patch_n": 8,
         "batch_size": 8,
-        "n_epochs": 4000,
+        "n_epochs": 1,
         "n_iters": 2000000,
         "snapshot_freq": 40000,
         "validation_freq": 40000
