@@ -1,4 +1,4 @@
-#module vae_main.py
+#module train_vae.py
 import args
 import torch, numpy as np
 from tqdm import tqdm
@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 train_latents = []
 val_latents = []
 
-num_epochs = 1#args.vae_num_epochs
+num_epochs = args.vae_num_epochs
 batch_size=args.vae_batch_size
 lr=args.vae_lr
 HR=args.HR
