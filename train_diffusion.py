@@ -11,7 +11,7 @@ import dataset
 #import utils
 from denoising_diffusion import DenoisingDiffusion
 
-# ✅ Directly specify these values instead of using argparse
+# Directly specify these values instead of using argparse
 CONFIG_PATH = args.CONFIG_PATH                   # Your YAML config file
 RESUME_PATH = args.RESUME_PATH                   # Path to checkpoint (if resuming)
 SAMPLING_TIMESTEPS = args.SAMPLING_TIMESTEPS     # Validation sampling steps
@@ -19,7 +19,7 @@ IMAGE_FOLDER = args.IMAGE_FOLDER                 # Where to save validation imag
 SEED = args.SEED                                 # Random seed
 
 
-# ✅ Define Args class at the top-level
+# Define Args class at the top-level
 class Args:
     def __init__(self, resume, sampling_timesteps, image_folder, seed):
         self.resume = resume
